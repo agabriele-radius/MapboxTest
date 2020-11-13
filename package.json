@@ -43,6 +43,6 @@
     "transformIgnorePatterns": [
       "node_modules/(?!((jest-)?react-native|react-clone-referenced-element|moment|expo(nent)?|@expo(nent)?/.*|@react-navigation|react-navigation|react-native-gesture-handler|@react-native-mapbox-gl/maps|@react-native-community))"
     ],
-    "setupFilesAfterEnv": ["@react-native-mapbox-gl/maps/setup-jest"]
+    "setupFilesAfterEnv": ["<rootDir>/setup-jest"]
   }
 }
